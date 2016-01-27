@@ -1,0 +1,45 @@
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  display: flex;
+  background: #039BE5;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+div.container {
+  max-width: 640px;
+  min-width: 240px;
+}
+
+img.responsive {
+  height: auto;
+  width:100%;
+}
+
+ul.social-list {
+  margin: 0;
+  padding: 0;
+
+  li {
+    display: inline-block;
+    font-size: 3em;
+    margin-left: 10px;
+    margin-right: 10px;
+
+    a {
+      color: white - #222;
+      transition: color .4s ease-in;
+
+      &:hover {
+        color: white;
+      }
+    }
+  }
+}
