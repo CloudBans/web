@@ -8,19 +8,25 @@ body {
   background: #039BE5;
   color: white;
   font-family: 'Roboto', sans-serif;
+  flex-direction: column;
   text-align: center;
   align-items: center;
   justify-content: center;
 }
 
 div.container {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
   max-width: 640px;
   min-width: 240px;
 }
 
 img.responsive {
   height: auto;
-  width:100%;
+  width: 100%;
 }
 
 ul.icon-menu {
@@ -50,4 +56,9 @@ ul.icon-menu {
 
 .twitter-cloudbans-icon:before {
   content: "\f099";
+}
+
+.site-footer a {
+  color: rgba(255, 255, 255, .8);
+  text-decoration: none;
 }
